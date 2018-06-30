@@ -1,7 +1,10 @@
 # demoapp1
 Java REST question service example
 
-NOTE!!! THIS PROJECT NEED BE FIXED (disable security or config security auth)
+DEMO API:
+https://question-java-spring.herokuapp.com/ + API URL
+
+
 
   Texhnologies:
 - Java 8;
@@ -22,7 +25,7 @@ NOTE!!! THIS PROJECT NEED BE FIXED (disable security or config security auth)
 
 NOTE!!!
 IF YOU WANT TO USE SPA(Single Page Application) client like Angular or React,
-in controller files change frontend link in annotation @CrossOrigin
+in controller files uncomment annotation @CrossOrigin and change frontend link in this annotation 
 for example, for local angular app: @CrossOrigin(origins = "http://localhost:4200")
 
 
